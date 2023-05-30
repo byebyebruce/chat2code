@@ -47,8 +47,8 @@ Chat2Code是一个可以让程序员用自然语言和代码对话的工具
 ```shell
 go install github.com/byebyebruce/chat2code/cmd/chat2code@latest
 ```
-2. 设置OPENAI_API_KEY环境变量`export OPENAI_API_KEY=xxxx`
-3. load一个代码目录 `chat2code load {code_path}`
+2. 设置OPENAI_API_KEY环境变量`export OPENAI_API_KEY=xxxx`，如果需要设置OpenAI base url`export OPENAI_API_BASE=https://xxx`
+3. load一个代码目录 `chat2code load {code_dir}`
 4. 开始和代码对话吧 `chat2code`
 
 ## Reference

@@ -52,8 +52,9 @@ Chat2Code: "I'm here to help you💻"
 ```shell
 go install github.com/byebyebruce/chat2code/cmd/chat2code@latest
 ```
-2. Set the OPENAI_API_KEY environment variable`export OPENAI_API_KEY=xxxx`
-3. Run and pass in a code directory chat2code `chat2code {code_path}`
+2. Set the OPENAI_API_KEY environment variable`export OPENAI_API_KEY=xxxx`. If you want to set OpenAI base url `export OPENAI_API_BASE=https://xxx`
+3. Run and pass in a code directory chat2code `chat2code load {code_dir}`
+4. Ok, chat with your code `chat2code`
 
 ## Reference
 * [LLM](https://platform.openai.com/docs/guides/chat)
