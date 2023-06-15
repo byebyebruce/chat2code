@@ -47,7 +47,7 @@ Chat2Code: "I'm here to help you💻"
 
 
 
-## CLI(Command Line Interface) Usage
+## CLI(Command LineV Interface) Usage
 1. Install
 ```shell
 go install github.com/byebyebruce/chat2code/cmd/chat2code@latest
@@ -61,3 +61,5 @@ go install github.com/byebyebruce/chat2code/cmd/chat2code@latest
 * [Embedding](https://platform.openai.com/docs/guides/embeddings)
 * [Vector Search](./vector_store/math.go)
 * [Storage](https://github.com/boltdb/bolt)
+
+![Hits](https://hits.sh/github.com/byebyebruce/chat2code/hits.svg?label=%F0%9F%91%80)
