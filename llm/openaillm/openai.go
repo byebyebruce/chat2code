@@ -23,7 +23,7 @@ func NewLLM(apiKey string, apiBase string, model string) *OpenAILLM {
 		model = openai.GPT3Dot5Turbo
 	}
 	var cfg openai.ClientConfig
-	if strings.HasPrefix(apiKey, "ak-") { // open ai key
+	if strings.HasPrefix(apiKey, "ak-") || strings.HasPrefix(apiKey, "sk-") { // open ai key
 		cfg = openai.DefaultConfig(apiKey)
 		if len(apiBase) > 0 {
 			cfg.BaseURL = apiBase
