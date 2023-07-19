@@ -40,7 +40,7 @@ func RootCMD() *cobra.Command {
 			apiKey = flagApiKey
 		}
 		if len(flagApiBase) > 0 {
-			apiKey = flagApiBase
+			apiBase = flagApiBase
 		}
 		if len(apiKey) == 0 {
 			fmt.Println("please set env OPENAI_API_KEY. if azure also need to set env OPENAI_API_BASE")
